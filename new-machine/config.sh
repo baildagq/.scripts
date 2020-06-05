@@ -1,19 +1,9 @@
 #!/bin/bash
 
-# pypi
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U --user
-pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-pip3 install --user pipreqs
-
-# git
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-
-# zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions  
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
+cd
+if  [ -d ~/.dotfiles ];then
+    git clone https://github.com/qistout/.dotfiles.git ~/.dotfiles
+fi
 
 # make soft-link
 cd ~/.dotfiles

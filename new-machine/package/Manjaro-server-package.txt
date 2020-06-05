@@ -1,5 +1,6 @@
 yay
 git
+gcc
 vim
 zsh
 tmux
@@ -18,12 +19,12 @@ zip
 unzip
 vsftpd
 tree
+fzf
 neovim
 python-pip
 nodejs
 yarn
 ripgrep
-ctags
 nerd-fonts-noto-sans-mono
 nerd-fonts-terminus
 ttf-nerd-fonts-symbols

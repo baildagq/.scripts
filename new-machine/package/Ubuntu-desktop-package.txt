@@ -1,11 +1,9 @@
 alacritty
 anki
 arandr
-bspwm
 calibre
 chromium-browser
 compton
-dunst
 dvipng
 fcitx
 feh
@@ -15,13 +13,9 @@ fonts-powerline
 fonts-wqy-zenhei
 keynav
 latex-cjk-all
-polybar
 rofi
 sgt-puzzles
 synaptic
 tweak
-texlive-latex-base
-texlive-latex-extra
-texlive-xetex
 zathura
 qbittorrent

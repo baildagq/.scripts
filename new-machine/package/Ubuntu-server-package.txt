@@ -2,7 +2,6 @@ aria2
 autoconf
 automake
 build-essential
-clangd-9
 cmake
 cmdtest
 code
@@ -29,15 +28,11 @@ make
 meld
 mysql-client
 mysql-server
-ncurses-doc
-ncurses-examples
-ncurses-hexedit
-ncurses-term
+ncurses-*
 neofetch
 net-tools
 nfs-common
 ninja-build
-nodejs
 ntpdate
 openssh-server
 pandoc
@@ -47,7 +42,6 @@ python3-pip
 python-autopep8
 ranger
 silversearcher-ag
-sogoupinyin
 ssh
 tig
 tldr

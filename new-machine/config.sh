@@ -34,7 +34,6 @@ paths=(
     '.xprofile'
     '.Xresources'
     '.zshrc_omz'
-    # '.zshrc_zpl'
 )
 
 for item in ${paths[*]}

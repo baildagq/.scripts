@@ -78,3 +78,20 @@ goldendict
 
 noto-fonts-emoji
 bdf-unifont
+anki
+dvipng
+latex-cjk-all
+sgt-puzzles
+qbittorrent
+
+xsel
+php
+ntpdate
+ncurses-*
+meld
+mysql-client
+mysql-server
+openssh-server
+httpie
+fortune-mod
+aria2

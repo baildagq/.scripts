@@ -17,10 +17,8 @@ paths=(
     '.config/pip'
     '.config/polybar'
     '.config/ranger'
-    #'.config/rofi'
     '.config/zathura'
     '.config/nvim'
-
     '.bashrc'
     '.condarc'
     '.gitaliases'

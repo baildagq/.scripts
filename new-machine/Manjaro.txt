@@ -1,13 +1,4 @@
-git
-gcc
-zsh
-ranger
-yay
-tmux
-python-pip
-fakeroot
 pkgconf
-trojan
 docker
 tldr
 zip
@@ -16,11 +7,8 @@ pdftk
 w3m
 vim
 neovim
-
 network-manager-applet
 networkmanager
-net-tools
-
 texlive-most texlive-lang
 tig
 the_silver_searcher
@@ -38,8 +26,6 @@ neofetch
 vsftpd
 tree
 polkit
-
-
 chromium
 qv2ray
 alacritty
@@ -73,9 +59,6 @@ mendeleydesktop-bundled
 calibre
 peek
 goldendict
-
-
-
 noto-fonts-emoji
 bdf-unifont
 anki
@@ -83,7 +66,6 @@ dvipng
 latex-cjk-all
 sgt-puzzles
 qbittorrent
-
 xsel
 php
 ntpdate

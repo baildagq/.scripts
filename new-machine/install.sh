@@ -23,13 +23,13 @@ esac;
 read -p "input install mode['server', 'desktop']: " MODE
 case $MODE in
     'server')
-        for line in `cat "./package/$OS-server-package.txt"`
+        for line in `cat "./$OS.txt"`
         do
             echo $line
         done
         ;;
     'desktop')
-        for line in `cat "./package/$OS-desktop-package.txt"`
+        for line in `cat "./$OS.txt"`
         do
             echo $line
         done

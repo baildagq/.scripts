@@ -18,3 +18,5 @@ net-tools
 build-essential
 ranger
 python3-pip
+i3wm
+brightnessctl

@@ -1,37 +1,37 @@
 #!/bin/bash
 
-cd
-if  [ -d ~/.dotfiles ];then
+cd ~
+if  [ ! -d ~/.dotfiles ];
+then
     git clone https://github.com/qistout/.dotfiles.git ~/.dotfiles
 fi
 
 # make soft-link
 cd ~/.dotfiles
 paths=(
-    '.config/alacritty'
-    '.config/codestyle'
-    '.config/dunst'
-    '.config/feh'
-    '.config/i3'
-    '.config/openvpn'
-    '.config/pip'
-    '.config/polybar'
-    '.config/ranger'
-    '.config/zathura'
-    '.config/nvim'
-    '.bashrc'
-    '.condarc'
-    '.gitaliases'
     '.gitconfig'
-    '.keynavrc'
-    '.shellconfig'
     '.tmux.conf' 
     '.vim'
-    '.xmodmap'
-    'xorg.conf.d'
-    '.xprofile'
-    '.Xresources'
+    '.config/pip'
     '.zshrc_omz'
+    '.bashrc'
+    '.condarc'
+#    '.config/alacritty'
+#    '.config/codestyle'
+#    '.config/dunst'
+#    '.config/feh'
+#    '.config/i3'
+#    '.config/openvpn'
+#    '.config/polybar'
+#    '.config/ranger'
+#    '.config/zathura'
+#    '.config/nvim'
+#    '.gitaliases'
+#    '.keynavrc'
+#    '.xmodmap'
+#    'xorg.conf.d'
+#    '.xprofile'
+#    '.Xresources'
 )
 
 for item in ${paths[*]}

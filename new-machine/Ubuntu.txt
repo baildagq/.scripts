@@ -29,3 +29,5 @@ brightnessctl
 alacritty(manual:github)
 chromium-browser
 zathura
+valgrind
+pdftk

@@ -8,7 +8,6 @@ tldr
 silversearcher-ag
 curl
 wget
-flameshot
 net-tools
 build-essential
 gdb
@@ -21,6 +20,13 @@ mono-complete
 golang
 nodejs
 npm
+texlive-full
+pdftk
+valgrind
+openssh-server
+libsecret-1-dev(install joplin terminal)
+mysql-server
+network-manager
 
 i3wm
 fcitx
@@ -29,5 +35,4 @@ brightnessctl
 alacritty(manual:github)
 chromium-browser
 zathura
-valgrind
-pdftk
+flameshot

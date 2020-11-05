@@ -46,9 +46,6 @@ case $OS in
     'Manjaro')
         ;;
     'Ubuntu')
-        # npm and nodejs
-        curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
-        INSTALL nodejs npm
         # i3
         sudo add-apt-repository ppa:kgilmer/speed-ricer
         UPDATE && INSTALL i3 i3-gaps arandr dunst polybar
@@ -107,4 +104,8 @@ sudo apt install apt-transport-https ca-certificates curl gnupg2 software-proper
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt update
-sudo apt install docker-ce
+sudo apt install docker-ce docker-compose
+
+# nodejs
+curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+INSTALL nodejs npm

@@ -1,4 +1,16 @@
+python-pip
+htop
+borg
 yay
+ipython
+alsa-firmware
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+ranger
+go
+nextcloud
+nextcloud-client
 wget
 pkgconf
 docker
@@ -12,7 +24,10 @@ neovim
 networkmanager
 tig
 git
+dolphin
+polybar
 the_silver_searcher
+thunar
 openssh
 npm
 nodejs
@@ -35,7 +50,9 @@ zathura-pdf-poppler
 wqy-microhei
 flameshot
 mpv
-i3
+i3-gaps
+i3lock
+i3status
 dunst
 compton
 rofi
@@ -57,4 +74,23 @@ httpie
 fortune-mod
 aria2
 texlive-most texlive-lang
-i3lock
+
+ntfs-3g-fuse(yay archlinuxcn)
+mailspring
+gonme-keyring
+bluez
+bluez-utils
+github-cli
+cmake
+p2zip
+virtualbox
+virtualbox-host-modules-arch
+meld
+
+typora
+mendeleydesktop-bundled
+joplin
+baidunetdisk-bin
+shadowsocks-qt5
+
+xbindkeys

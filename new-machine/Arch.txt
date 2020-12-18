@@ -94,3 +94,24 @@ baidunetdisk-bin
 shadowsocks-qt5
 
 xbindkeys
+man-pages
+strace
+
+clang
+cmus
+google-chrome
+sourcetrail
+xclip
+xsel
+shellcheck
+joplin-desktop-electron
+slack-desktop
+graphviz
+
+# kubeflow
+kubectl
+minikube
+
+gnucash
+gnucash-docs
+feedreader

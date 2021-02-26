@@ -115,3 +115,13 @@ minikube
 gnucash
 gnucash-docs
 feedreader
+netease-cloud-music
+docbook-utils
+dhcp
+dhcpcd
+dnsmasq
+termshark
+minicom # A small terminal used in connect raspberry-pi serial port debuging
+kazam
+unrar
+openconnect

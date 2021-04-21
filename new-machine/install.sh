@@ -79,3 +79,5 @@ cd snapd
 makepkg -si
 # sudo systemctl enable -now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

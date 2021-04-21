@@ -30,6 +30,8 @@ network-manager
 sqlite3
 sqlite3-doc
 proxychains
+clang
+clangd
 
 i3wm
 fcitx
@@ -39,3 +41,10 @@ alacritty(manual:github)
 chromium-browser
 zathura
 flameshot
+vim-gtk
+trash-cli
+mpv
+shellcheck
+clang-format
+imagemagick
+cloc

@@ -1,4 +1,7 @@
 python-pip
+xfce4
+xfce4-goodies
+nerd-fonts-dejavu-sans-mono
 htop
 borg
 yay
@@ -9,8 +12,6 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 ranger
 go
-nextcloud
-nextcloud-client
 wget
 pkgconf
 docker
@@ -40,7 +41,7 @@ tree
 polkit
 alacritty
 archlinuxcn-keyring
-code
+visual-studio-code-bin
 fcitx
 fcitx-configtool
 fcitx-sunpinyin
@@ -50,9 +51,6 @@ zathura-pdf-poppler
 wqy-microhei
 flameshot
 mpv
-i3-gaps
-i3lock
-i3status
 dunst
 compton
 rofi
@@ -60,68 +58,58 @@ brightnessctl
 feh
 arandr
 keynav
-calibre
 peek
 goldendict
 anki
 qbittorrent
-xsel
 ncurses-*
 mysql-client
 mysql-server
 openssh-server
-httpie
 fortune-mod
 aria2
-texlive-most texlive-lang
-
-ntfs-3g-fuse(yay archlinuxcn)
 mailspring
-gonme-keyring
 bluez
 bluez-utils
-github-cli
 cmake
 p2zip
-virtualbox
-virtualbox-host-modules-arch
-meld
-
-typora
-mendeleydesktop-bundled
-joplin
-baidunetdisk-bin
-shadowsocks-qt5
-
 xbindkeys
 man-pages
-strace
-
 clang
-cmus
 google-chrome
-sourcetrail
 xclip
 xsel
 shellcheck
-joplin-desktop-electron
-slack-desktop
+joplin-desktop
 graphviz
-
-# kubeflow
-kubectl
-minikube
-
-gnucash
-gnucash-docs
-feedreader
-netease-cloud-music
-docbook-utils
 dhcp
 dhcpcd
 dnsmasq
 termshark
-minicom # A small terminal used in connect raspberry-pi serial port debuging
 kazam
 unrar
 openconnect
+mendeleydesktop-bundled
+
+# texlive-most 
+# texlive-lang
+# baidunetdisk-bin
+# ntfs-3g-fuse(yay archlinuxcn)
+# shadowsocks-qt5
+# strace
+# cmus
+# sourcetrail
+# slack-desktop
+# kubeflow
+# kubectl
+# minikube
+# gnucash
+# gnucash-docs
+# feedreader
+# netease-cloud-music
+# docbook-utils
+# minicom # A small terminal used in connect raspberry-pi serial port debuging
+# i3-gaps
+# i3lock
+# i3status
+clang-format

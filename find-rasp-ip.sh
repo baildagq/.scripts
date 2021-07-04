@@ -1,11 +1,15 @@
 #!/bin/bash
-endpoint=101
+endpoint=2
 while(true)
 do
-    ssh ubuntu@192.168.2.$endpoint
-    flag=$?
-    if [ $flag -ne 0 ]
+    if [ $endpoint != 94 ]
     then
-        endpoint=`expr $endpoint + 1`
+        echo "try $endpoint" 
+        ssh pi@10.42.0.$endpoint
+        flag=$?
+        if [ $flag -ne 0 ]
+        then
+            endpoint=`expr $endpoint + 1`
+        fi
     fi
 done

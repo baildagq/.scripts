@@ -1,0 +1,7 @@
+sudo ntpdate pool.ntp.org
+sudo hwclock -s
+doxygen graphviz
+texlive-latex-extra
+libc++-dev
+clang
+rust-all

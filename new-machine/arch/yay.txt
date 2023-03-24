@@ -1,0 +1,7 @@
+anki
+google-chrome
+kazam
+mysql
+notion-app
+wemeet-bin
+visual-studio-code-bin
